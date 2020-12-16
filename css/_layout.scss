@@ -1,0 +1,37 @@
+.wrap{
+    max-width: 960px;
+    margin: 0 auto;   
+}
+.header{
+    position: relative;
+    height: 200px;
+    background:black;
+     .menu{
+         float: right;
+         margin: 30px 0 0 0;
+         li{
+            float: left;
+            background: #3399FF;
+            border-right:1px solid white;
+             a{
+                color:#fff;
+                display: block;
+                width: 100px;
+                text-align:center;
+                height: 30px;
+                line-height: 30px;
+                text-decoration: none;
+                }
+            }
+        } 
+}
+.content{
+    color:black;
+}
+
+
+
+.footer{
+    p
+    color:black;
+}
