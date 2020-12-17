@@ -1,0 +1,33 @@
+@mixin pad{
+  @media(max-width:768px){
+    @content;
+  }
+}
+@mixin mobile{
+  @media(max-width:375px){
+    @content;
+  }
+}
+@mixin text-hide{
+  text-indent: 101%;
+  overflow:hidden;
+  white-space: nowrap;
+}
+@mixin text-color-size($color,$size){
+  color:$color;
+  font-size:$size;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.wrap{
+  max-width: 1024px;
+  margin: 0 auto;
+  
+  }
+//清除浮動
+.clearfix{
+  clear:both;
+}

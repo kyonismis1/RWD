@@ -1,0 +1,14 @@
+@import "reset";
+@import "layout";
+
+.content {
+
+    
+    .index-photo li {
+        float: left;
+        width: 32.33333%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        margin-bottom: 1em;
+    }
+}

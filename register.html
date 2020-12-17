@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品1</title>
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/jQuery v3.5.1.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <ul class="menu">
+                <div class="logo"><a href="index.html">公司名稱</a></div>
+                <li><a href="#">loremdef</a></li>
+                <li><a href="#">loremefe</a></li>
+                <li><a href="register.html">註冊</a></li>
+                <li><a href="login.html">登入</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="form-register">
+                <h2>註冊</h2>
+                <form action="register.html">
+                    <label for="account">帳號:</label><br>
+                    <input id='account' type="text" name="account " placeholder="請輸入帳號">
+                    <br>
+                    <label for="password">密碼:</label><br>
+                    <input id='password' type="password" name="password" placeholder="請輸入密碼">
+                    <br>
+                    <label for="password">手機號碼:</label><br>
+                    <input id='phone' type="phone" name="phone" placeholder='請輸入手機號碼'>
+                    <br>
+                    <label for="email">電子郵件:</label><br>
+                    <input id='email' type="email" name="email" placeholder='請輸入電子郵件'>
+                    <br>
+                    <label for="">性別:</label><br>
+                    <input type="radio" name="sex" value='male' class='radio'>男
+                    <input type="radio" name="sex" value='female' class='radio'>女
+                    <br>
+                    <label for="">從哪裡得知消息(可複選):</label><br>
+                    <input type="checkbox" name="消息來源" value='ad' class='checkbox'>廣告
+                    <input type="checkbox" name="消息來源" value='web' class='checkbox'>網路
+                    <input type="checkbox" name="消息來源" value='friend' class='checkbox'>朋友介紹
+                    <input type="checkbox" name="消息來源" value='other' class='checkbox'>其他
+                    <br>
+                    <label for="address">居住地址:</label><br>
+                    <input id='address' type="textarea" name="address" class='info' placeholder='請輸入地址'>
+                    <br>
+                    <input type="submit" class=submit value="送出">
+                </form>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+    <script src="js/all.js"></script>
+</body>
+
+</html>
