@@ -1,8 +1,14 @@
-@import 'reset';
-@import 'layout';
+@import "reset";
+@import "layout";
 
-
-.form-register{
+.form_register {
     max-width: 375px;
     margin: 0 auto;
+    padding:30px 0 92px 0;
+ 
+    form {
+        width: 200px;
+        margin: 0 auto;
+        line-height: 2;
+    }
 }

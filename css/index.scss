@@ -1,14 +1,26 @@
 @import "reset";
 @import "layout";
 
-.content {
 
+.content {
+    text-align:center;
+    h1{
+        display: block;
+        margin: 0 auto;
+    }
     
     .index-photo li {
+        display: blocks;
         float: left;
         width: 32.33333%;
         margin-left: 0.5%;
         margin-right: 0.5%;
         margin-bottom: 1em;
+        @include mobile{
+            width: 80%;
+            margin-left:10%;
+            margin-right:10%;
+            
+        }
     }
 }

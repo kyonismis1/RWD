@@ -1,7 +1,13 @@
-@import 'reset';
-@import 'layout';
+@import "reset";
+@import "layout";
 
-.form-login{
+.form_login {
     max-width: 375px;
     margin: 0 auto;
+    border: 1px solid #7a7a7a;
+    form {
+        width: 200px;
+        margin: 0 auto;
+        line-height: 2;
+    }
 }

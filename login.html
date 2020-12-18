@@ -3,26 +3,47 @@
 
 <head>
     <meta charset="UTF-8">
+    <title>RWD project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>作品1</title>
+    <meta name="description" content="RWD網站設計" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="img/iconLogo.ico" type="image/x-icon" />
+    <link rel="icon" href="img/iconLogo.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/login.css">
-    <script src="js/jQuery v3.5.1.js"></script>
+    <script type="text/javascript" src="js/jQuery v3.5.1.js"></script>
 </head>
 
 <body>
     <div class="wrap">
         <div class="header">
-            <ul class="menu">
+            <div class="navbar">
                 <div class="logo"><a href="index.html">公司名稱</a></div>
-                <li><a href="#">loremdef</a></li>
-                <li><a href="#">loremefe</a></li>
-                <li><a href="register.html">註冊</a></li>
-                <li><a href="login.html">登入</a></li>
-            </ul>
+                <div class="show_sidebar"><a href="#">123</a></div>
+                <ul class="menu">
+                    <li><a class="slidemenu" href="#">loremdef</a>
+                        <ul>
+                            <li><a href="#">sfsfgdsg</a></li>
+                            <li><a href="#">sdfasfdsa</a></li>
+                            <li><a href="#">sadfsafd</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="slidemenu" href="#">loremefe</a>
+                        <ul class="dropdown">
+                            <li><a href="#">sfsfgdsg</a></li>
+                            <li><a href="#">sdfasfdsa</a></li>
+                            <li><a href="#">sadfsafd</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="register.html">註冊</a></li>
+                    <li><a href="login.html">登入</a></li>
+                </ul>
+            </div>
         </div>
 
+
         <div class="content">
-            <div class="form-login">
+            <div class="form_login">
+                <h2>登入</h2>
                 <form action="login.html">
                     <label for="account">帳號:</label>
                     <input id='account' type="text" name="account " placeholder="請輸入帳號">
@@ -36,7 +57,26 @@
         </div>
 
         <div class="footer">
-
+            <div class="footer_content">
+                <ul>
+                    <span>loremfeff</span>
+                    <li><a href="#">133</a></li>
+                    <li><a href="#">133</a></li>
+                    <li><a href="3">133</a></li>
+                </ul>
+                <ul>
+                    <span>loremfeff</span>
+                    <li><a href="#">133</a></li>
+                    <li><a href="#">133</a></li>
+                    <li><a href="#">133</a></li>
+                </ul>
+                <ul>
+                    <span>loremfeff</span>
+                    <li><a href="#">133</a></li>
+                    <li><a href="#">133</a></li>
+                    <li><a href="#">133</a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <script src="js/all.js"></script>

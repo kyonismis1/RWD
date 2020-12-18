@@ -1,13 +1,10 @@
-@mixin pad{
-  @media(max-width:768px){
-    @content;
-  }
-}
+
 @mixin mobile{
-  @media(max-width:375px){
+  @media(max-width:767px){
     @content;
   }
 }
+
 @mixin text-hide{
   text-indent: 101%;
   overflow:hidden;
