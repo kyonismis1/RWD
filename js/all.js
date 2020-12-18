@@ -3,8 +3,8 @@ $(document).ready(function () {
         event.preventDefault();
         $(this).toggleClass('slideopen');
         $(this).parent().siblings().find('a').removeClass('slideopen')
-        $(this).parent().find('ul').slideToggle();
-        $(this).parent().siblings().find('ul').slideUp();
+        $(this).parent().find('ul').slideToggle(300);
+        $(this).parent().siblings().find('ul').slideUp(300);
     });
     $(".show_sidebar>a").on('click', function (e) {
         e.preventDefault();
